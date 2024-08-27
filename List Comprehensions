@@ -2,13 +2,13 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "cb8f4cfa",
+   "id": "a96f30c3",
    "metadata": {
     "papermill": {
-     "duration": 0.002789,
-     "end_time": "2024-08-26T10:03:04.656846",
+     "duration": 0.002779,
+     "end_time": "2024-08-27T18:38:52.925901",
      "exception": false,
-     "start_time": "2024-08-26T10:03:04.654057",
+     "start_time": "2024-08-27T18:38:52.923122",
      "status": "completed"
     },
     "tags": []
@@ -17,13 +17,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "b183b0e1",
+   "id": "113a8da1",
    "metadata": {
     "papermill": {
-     "duration": 0.001862,
-     "end_time": "2024-08-26T10:03:04.660985",
+     "duration": 0.00192,
+     "end_time": "2024-08-27T18:38:52.930252",
      "exception": false,
-     "start_time": "2024-08-26T10:03:04.659123",
+     "start_time": "2024-08-27T18:38:52.928332",
      "status": "completed"
     },
     "tags": []
@@ -35,25 +35,25 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d4f6ea3c",
+   "id": "5bedfc97",
    "metadata": {
     "_cell_guid": "3e35839b-ee76-4c8b-9ffb-e1e4b5be1d1f",
     "_uuid": "cf79141e-70ea-401d-90bc-e8872600fef5",
     "collapsed": false,
     "execution": {
-     "iopub.execute_input": "2024-08-26T10:03:04.667484Z",
-     "iopub.status.busy": "2024-08-26T10:03:04.666997Z",
-     "iopub.status.idle": "2024-08-26T10:03:07.976783Z",
-     "shell.execute_reply": "2024-08-26T10:03:07.975204Z"
+     "iopub.execute_input": "2024-08-27T18:38:52.937947Z",
+     "iopub.status.busy": "2024-08-27T18:38:52.937358Z",
+     "iopub.status.idle": "2024-08-27T18:38:55.956881Z",
+     "shell.execute_reply": "2024-08-27T18:38:55.955444Z"
     },
     "jupyter": {
      "outputs_hidden": false
     },
     "papermill": {
-     "duration": 3.316434,
-     "end_time": "2024-08-26T10:03:07.979474",
+     "duration": 3.027089,
+     "end_time": "2024-08-27T18:38:55.959999",
      "exception": false,
-     "start_time": "2024-08-26T10:03:04.663040",
+     "start_time": "2024-08-27T18:38:52.932910",
      "status": "completed"
     },
     "tags": []
@@ -138,7 +138,7 @@
     "df.columns\n",
     "df.info()\n",
     "\n",
-    "\n",
+    "pd.options.display.float_format = '{:.3f}'.format\n",
     "\n",
     "\n",
     "# ###############################################\n",
@@ -215,14 +215,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 6.857563,
-   "end_time": "2024-08-26T10:03:08.602387",
+   "duration": 6.902777,
+   "end_time": "2024-08-27T18:38:56.585005",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-08-26T10:03:01.744824",
+   "start_time": "2024-08-27T18:38:49.682228",
    "version": "2.6.0"
   }
  },
